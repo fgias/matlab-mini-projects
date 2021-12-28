@@ -1,0 +1,119 @@
+home
+A=[2 4 6;3 5 6;9 8 6]
+
+A =
+
+     2     4     6
+     3     5     6
+     9     8     6
+
+X=[1:0.1:10];
+isvarname variable
+
+ans =
+
+     1
+
+isvarname sin
+
+ans =
+
+     1
+
+variable=3
+
+variable =
+
+     3
+
+%this is a comment
+B=[1 2 3;4 5 6;7 8 9]
+
+B =
+
+     1     2     3
+     4     5     6
+     7     8     9
+
+A+B
+
+ans =
+
+     3     6     9
+     7    10    12
+    16    16    15
+
+A*B
+
+ans =
+
+    60    72    84
+    65    79    93
+    83   106   129
+
+A.*B
+
+ans =
+
+     2     8    18
+    12    25    36
+    63    64    54
+
+A^2
+
+ans =
+
+    70    76    72
+    75    85    84
+    96   124   138
+
+A.^2
+
+ans =
+
+     4    16    36
+     9    25    36
+    81    64    36
+
+ans
+
+ans =
+
+     4    16    36
+     9    25    36
+    81    64    36
+
+who
+
+Your variables are:
+
+A         B         X         ans       variable  
+
+whos
+  Name          Size            Bytes  Class     Attributes
+
+  A             3x3                72  double              
+  B             3x3                72  double              
+  X             1x91              728  double              
+  ans           3x3                72  double              
+  variable      1x1                 8  double              
+
+pi
+
+ans =
+
+    3.1416
+
+linspace(1,10,10)
+
+ans =
+
+     1     2     3     4     5     6     7     8     9    10
+
+logspace(1,3,3)
+
+ans =
+
+          10         100        1000
+
+diary off
